@@ -1,0 +1,174 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: light;
+}
+
+/* title */
+#title{
+  padding: 3% 15% 7%;
+  text-align: left;
+  background-color: #ff4c68;
+}
+
+.title-image{
+  transform: rotate(25deg);
+  width:60%;
+  position: absolute;
+  right: 30%;
+}
+.mainheading{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900;
+   line-height: 1.5;
+   font-size: 3.5rem;
+   color: white;
+
+}
+
+
+
+/* download-button */
+
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* specs */
+
+
+.spec-head{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+#features{
+  padding: 7% 15%;
+
+  line-height: 1.5;
+  background-color: #fff;
+  position: relative;
+}
+.fas{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+.spec-def{
+  color: #8f8f8f;
+  padding: 5%;
+}
+
+
+/* testimonial-section */
+
+#testimonials{
+  background-color: #ef8172;
+
+  color: #fff;
+}
+
+.dog-image{
+  width: 10%;
+  margin: 1rem;
+  border-radius: 100%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding: 3% 7%;
+
+}
+.press-images{
+  width: 15%;
+  margin: 1rem 1rem;
+}
+.carousel-item{
+  padding: 5% 7%;
+}
+
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+
+}
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+
+
+/* call-to-action */
+#cta{
+  background-color: #ff4c68;
+
+  padding: 4% 10% 4%;
+}
+
+.h3f{
+  margin: 20px 0 20px;
+  color: #fff;
+  font-size: 3.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+
+}
+
+/* footer */
+
+#footer{
+  padding: 4% 10% 6%;
+
+}
+.footicon{
+  color: black;
+  margin: 1%;
+}
